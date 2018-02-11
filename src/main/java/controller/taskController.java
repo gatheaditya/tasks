@@ -30,8 +30,7 @@ public class taskController {
 		
 		taskModel tm = new taskModel();
 		tm.setTask(task);
-		
-		
+				
 		tr.save(tm);
 		return "add";
 	}
