@@ -25,7 +25,7 @@ public class taskController {
 	
 	
 	@GetMapping(path="/add/{task}/{date}/{lable}")	
-	public @ResponseBody String  add(@PathVariable("task") String task,@PathVariable("dte") Date dte )
+	public @ResponseBody String  add(@PathVariable("task") String task )
 	{
 		
 		taskModel tm = new taskModel();
