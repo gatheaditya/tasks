@@ -30,7 +30,7 @@ public class taskController {
 		
 		taskModel tm = new taskModel();
 		tm.setTask(task);
-		tm.setDate(dte);
+		
 		
 		tr.save(tm);
 		return "add";
